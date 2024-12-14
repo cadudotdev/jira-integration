@@ -42,3 +42,6 @@ Thumbs.db
 .nx/workspace-data
 
 vite.config.*.timestamp*
+
+# api static web
+/apps/api/public

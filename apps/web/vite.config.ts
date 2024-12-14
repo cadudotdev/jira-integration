@@ -16,12 +16,8 @@ export default defineConfig({
     host: 'localhost',
   },
   plugins: [react(), nxViteTsPaths(), nxCopyAssetsPlugin(['*.md'])],
-  // Uncomment this if you are using workers.
-  // worker: {
-  //  plugins: [ nxViteTsPaths() ],
-  // },
   build: {
-    outDir: '../api/public',
+    outDir: '../api/public/',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
